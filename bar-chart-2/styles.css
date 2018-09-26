@@ -1,14 +1,16 @@
-div.bar {
- display: inline-block;
- width: 20px;
- height: 75px; /* We'll override height later */
- background-color: teal;
- margin-right: 2px;
+svg text.data-points {
+  font-family: sans-serif;
+  font-size: 10px;
+  fill: "#333";
 }
 
-svg text.axis-labels {
-  font-family: sans-serif;
-  font-size: 11px;
-  fill: white;
-  text-anchor: middle;
+.axis path,
+.axis line {
+ fill: none;
+ stroke: black;
+ shape-rendering: crispEdges;
+}
+.axis text {
+ font-family: sans-serif;
+ font-size: 11px;
 }
